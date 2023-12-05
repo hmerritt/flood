@@ -1,4 +1,4 @@
-import {FC, KeyboardEvent, ReactNode, useEffect, useRef} from 'react';
+import {FC, KeyboardEvent, MouseEvent, ReactNode, useEffect, useRef} from 'react';
 import {observer} from 'mobx-react';
 import {reaction} from 'mobx';
 import {Trans} from '@lingui/react';
@@ -75,6 +75,13 @@ const TorrentList: FC = observer(() => {
           UIStore.setActiveModal({id: 'add-torrents', tab: 'by-url', urls: [{id: 0, value: text}]});
         }
       })();
+    }
+  });
+
+  useEvent('click', (e: MouseEvent) => {
+    const clickedOn = (e?.target as HTMLElement)?.parentElement;
+    if (clickedOn?.classList?.contains('torrent__list__viewport')) {
+      TorrentStore.resetSelectedTorrents();
     }
   });
 
