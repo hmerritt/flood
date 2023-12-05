@@ -87,6 +87,10 @@ class TorrentStore {
     this.selectedTorrents = this.filteredTorrents.map((v) => v.hash);
   }
 
+  resetSelectedTorrents() {
+    this.selectedTorrents = [];
+  }
+
   handleTorrentListDiffChange(torrentListDiffs: Operation[]) {
     applyPatch(this.torrents, torrentListDiffs);
   }
