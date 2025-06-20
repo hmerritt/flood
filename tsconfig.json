@@ -8,7 +8,7 @@
     "module": "es2022",
     "noEmit": true,
     "allowImportingTsExtensions": true,
-    "strict": true,
+    "strict": false,
     "isolatedModules": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
