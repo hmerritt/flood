@@ -198,7 +198,7 @@
     "vite-node": "6.0.0",
     "vite-tsconfig-paths": "6.1.1",
     "vitest": "4.1.10",
-    "yargs": "17.7.3",
+    "yargs": "18.1.0",
     "zod": "4.4.3"
   },
   "engines": {
