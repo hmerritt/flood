@@ -294,11 +294,11 @@ importers:
         specifier: 3.0.2
         version: 3.0.2
       mobx:
-        specifier: 6.16.1
-        version: 6.16.1
+        specifier: 7.0.3
+        version: 7.0.3
       mobx-react-lite:
         specifier: 4.1.1
-        version: 4.1.1(mobx@6.16.1)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        version: 4.1.1(mobx@7.0.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       morgan:
         specifier: 1.11.0
         version: 1.11.0(supports-color@10.2.2)
@@ -6163,8 +6163,8 @@ packages:
       react-native:
         optional: true
 
-  mobx@6.16.1:
-    resolution: {integrity: sha512-syNcDdX3KT+Jq3je6eGjBhuc24Z68td2VG0zNFqRswaE433D9SNH5VRy/xrGbJsUixfppLLccXhAW9JSf6n+SQ==}
+  mobx@7.0.3:
+    resolution: {integrity: sha512-KopyyzqZ8xT1fqxFNl8ItKKMpGifRe2ySaNAHs80/cx0mL1bpJtJ46S+FSyzXKRjW0TODWj5zwq/Y9hUdJUy4w==}
 
   moo@0.5.3:
     resolution: {integrity: sha512-m2fmM2dDm7GZQsY7KK2cme8agi+AAljILjQnof7p1ZMDe6dQ4bdnSMx0cPppudoeNv5hEFQirN6u+O4fDE0IWA==}
@@ -14226,15 +14226,15 @@ snapshots:
 
   mmdb-lib@3.0.2: {}
 
-  mobx-react-lite@4.1.1(mobx@6.16.1)(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
+  mobx-react-lite@4.1.1(mobx@7.0.3)(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
     dependencies:
-      mobx: 6.16.1
+      mobx: 7.0.3
       react: 19.2.7
       use-sync-external-store: 1.6.0(react@19.2.7)
     optionalDependencies:
       react-dom: 19.2.7(react@19.2.7)
 
-  mobx@6.16.1: {}
+  mobx@7.0.3: {}
 
   moo@0.5.3: {}
 
